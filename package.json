@@ -1,0 +1,19 @@
+{
+  "name": "lesson-8",
+  "version": "1.0.0",
+  "description": "work with node.js and npm",
+  "scripts": {
+    "start": "node server.js",
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html"
+  },
+  "author": "Khakhina Alexandra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.2"
+  }
+}
